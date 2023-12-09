@@ -1,5 +1,5 @@
 import React from "react";
-import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faSchool, faUserGroup } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
@@ -116,6 +116,41 @@ const DetailWorks = () => {
 							<div className="work-title">Shanghai University of Finance and Economics</div>
 							<div className="work-subtitle">
 								Alumni Outreach Volunteer
+							</div>
+							<div className="detail-work-duration">Jul 2022 - Aug 2022</div>
+						</div>
+						
+					</div>
+				}
+			/>
+
+			<Card
+				icon={faUserGroup}
+				title="Leadership Experiences"
+				body={
+					<div className="works-body">
+						<div className="work">
+							<img
+								src="./ziteng.png"
+								alt="ziteng"
+								className="work-image"
+							/>
+							<div className="work-title">Ziteng Street Neighborhood Committee</div>
+							<div className="work-subtitle">
+								Community Volunteer
+							</div>
+							<div className="detail-work-duration">Apr 2022 - Jun 2022</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./qiancun.png"
+								alt="qiancun"
+								className="work-image"
+							/>
+							<div className="work-title">"Thousand Villages Survey" Project</div>
+							<div className="work-subtitle">
+								Team Leader
 							</div>
 							<div className="detail-work-duration">Jul 2022 - Aug 2022</div>
 						</div>

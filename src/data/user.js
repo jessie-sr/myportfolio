@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Rong's Portfolio",
 		name: "Rong Sun",
-		email: "rongsun0509@gmail.com",
+		email: "jessie_sr@163.com",
 		logo: "../logo.png",
 	},
 
@@ -10,7 +10,7 @@ const INFO = {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/jessie-sr",
 		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		instagram: "https://www.instagram.com/jessi_esr/",
 		stackoverflow: "https://stackoverflow.com/users/22974262/jessie-sr",
 		facebook: "https://facebook.com/",
 	},
@@ -24,13 +24,13 @@ const INFO = {
 	about: {
 		title: "From numbers to impact, I aim to empower the elderly with technology.",
 		description:
-			"Starting off as an accounting student, my career goal took a sharp turn during the COVID-19 pandemic. Witnessing the challenges that the elderly faced with complicated health systems and pervasive misinformation, as well as the scarcity of thoughtful technology catered to their needs, I was fueled to move into software engineering, creating intelligent systems specially for the elderly to enhance their overall quality of life. Blending my analytical background with a newfound passion for technology, I am now committed to creating digital solutions accessible and impactful for our aging society.",
+			"Starting off as an accounting student, my career goal took a sharp turn during the COVID-19 pandemic. Witnessing the challenges that the elderly faced with the digital divide, I was fueled to move into software engineering, creating intelligent systems specially for the elderly to enhance their overall quality of life. Blending my analytical background with a newfound passion for technology, I am now committed to creating digital solutions accessible and impactful for our aging society.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Join me on a journey where each story is a step towards a deeper understanding of both myself and the world around us.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Chronological collection of my reflections on technology, leadership, software development, social changes and more. ",
 	},
 
 	projects: [
@@ -49,7 +49,7 @@ const INFO = {
 				"A comprehensive WeChat mini-program aiming to streamline information exchange among residents.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/jessie-sr/resiconnect",
 		},
 
 		{
