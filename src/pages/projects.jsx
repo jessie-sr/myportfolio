@@ -62,7 +62,7 @@ const Projects = () => {
 						 and impactful.
 						</div>
 
-						<div className="subtitle-bold">
+						<div className="subtitle-bold" style={{ marginTop: '30px'}}>
 							<FontAwesomeIcon icon={faLightbulb} className="icon-style" />
 							{" "}My Projects
 						</div>
@@ -71,7 +71,7 @@ const Projects = () => {
 							<AllProjects />
 						</div>
 
-						<div className="subtitle-bold"  style={{ marginTop: '30px'}}>
+						<div className="subtitle-bold" style={{ marginTop: '10px'}}>
 							<FontAwesomeIcon icon={faToolbox} className="icon-style" />
 							{" "}Programming Languages & Skills
 						</div>
