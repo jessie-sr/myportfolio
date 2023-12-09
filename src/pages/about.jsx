@@ -53,7 +53,7 @@ const About = () => {
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
-									<div className="homepage-article-link">
+									<div className="homepage-article-link" style={{ marginTop: '10px', marginBottom: '20px'}}>
 										<Link to={"/articles/"}>
 											Learn more about my journey through Articles{" "}
 											<FontAwesomeIcon

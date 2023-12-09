@@ -31,3 +31,28 @@
 		width: calc(100% / 2);
 	}
 }
+
+.svg-image-small {
+	width: 430px; /* Adjust the width as needed */
+	height: 430px; /* Adjust the height as needed */
+}
+
+.svg-image-large {
+	width: 490px; /* Adjust the width as needed */
+	height:490px; /* Adjust the height as needed */
+}
+  
+.svg-row {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	display: flex; /* Use flexbox to align children in a row */
+	justify-content: center; /* Center children horizontally */
+	align-items: center; /* Center children vertically */
+	flex-wrap: wrap; /* Optional: allows items to wrap to next line on small screens */
+}
+
+.icon-style {
+	margin-right: 10px;
+	color: black;
+  }

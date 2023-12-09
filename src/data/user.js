@@ -87,6 +87,33 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/jessie-sr/snake-game",
 		},
+
+		{
+			title: "Rotten 🥔 Potatoes",
+			description:
+				"A web application inspired by RottenTomatoes that allows users to review movies and manage their personal collection.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
+			linkText: "View Project",
+			link: "https://github.com/jessie-sr/rottenpotatoes",
+		},
+
+		{
+			title: "Pixelpulse Optimizer 🏎️",
+			description:
+				"A project focusing on speeding up convolution operations, which are central to many applications like video processing.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
+			linkText: "View Project",
+			link: "https://github.com/jessie-sr/pixelpulse-optimizer",
+		},
+
+		{
+			title: "Scheme Interpreter",
+			description:
+				"A minimalistic interpreter for a subset of the Scheme programming language.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/jessie-sr/scheme-interpreter",
+		},
 	],
 };
 

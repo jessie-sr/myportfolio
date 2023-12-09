@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faToolbox, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -10,6 +12,8 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
+import ProgrammingLanguageSvg from "../data/programming-languages.svg"; 
+import SkillSvg from "../data/skills.svg"; 
 
 const Projects = () => {
 	useEffect(() => {
@@ -58,9 +62,30 @@ const Projects = () => {
 						 and impactful.
 						</div>
 
+						<div className="subtitle-bold">
+							<FontAwesomeIcon icon={faLightbulb} className="icon-style" />
+							{" "}My Projects
+						</div>
+
 						<div className="projects-list">
 							<AllProjects />
 						</div>
+
+						<div className="subtitle-bold"  style={{ marginTop: '30px'}}>
+							<FontAwesomeIcon icon={faToolbox} className="icon-style" />
+							{" "}Programming Languages & Skills
+						</div>
+
+						<div className="svg-row">
+							<div className="svg-container">
+								<img src={ProgrammingLanguageSvg} alt="Programming Languages Proficiency" className="svg-image-small" />
+							</div>
+
+							<div className="svg-container">
+								<img src={SkillSvg} alt="Skills" className="svg-image-large" />
+							</div>
+						</div>
+
 					</div>
 					<div className="page-footer">
 						<Footer />

@@ -171,7 +171,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
+							<div className="homepage-articles"  style={{ marginTop: '15px'}}>
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
