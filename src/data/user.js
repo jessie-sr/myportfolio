@@ -27,6 +27,12 @@ const INFO = {
 			"Starting off as an accounting student, my career goal took a sharp turn during the COVID-19 pandemic. Witnessing the challenges that the elderly faced with the digital divide, I was fueled to move into software engineering, creating intelligent systems specially for the elderly to enhance their overall quality of life. Blending my analytical background with a newfound passion for technology, I am now committed to creating digital solutions accessible and impactful for our aging society.",
 	},
 
+	jackotranslate: {
+		title: "Navigating Independent Web App Development: A Journey with Jack 🎃 Translate",
+		description:
+			"\“Jack O Translate\" is a web application that supports translations between multiple languages. What makes it stand out is its ability to customize tone and context in translations, a feature often missing in standard translation tools but achieved here through integration with the OpenAI API. This project was my foray into independent webapp development, challenging me to come up with innovative software design and apply my programming skills in a real-world context."
+	},
+
 	articles: {
 		title: "Join me on a journey where each story is a step towards a deeper understanding of both myself and the world around us.",
 		description:
@@ -40,7 +46,7 @@ const INFO = {
 				"A thoughtful translation app that allows customization of language, tone and context.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
 			linkText: "View Project",
-			link: "https://github.com/jessie-sr/jack-o-translate",
+			link: "../jackotranslate",
 		},
 
 		{
