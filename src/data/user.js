@@ -28,7 +28,7 @@ const INFO = {
 	},
 
 	jackotranslate: {
-		title: "Navigating Independent Web App Development: A Journey with Jack 🎃 Translate",
+		title: "Navigating independent web app development: Jack 🎃 Translate",
 		description:
 			"\“Jack O Translate\" is a web application that supports translations between multiple languages. What makes it stand out is its ability to customize tone and context in translations, a feature often missing in standard translation tools but achieved here through integration with the OpenAI API. This project was my foray into independent webapp development, challenging me to come up with innovative software design and apply my programming skills in a real-world context."
 	},
