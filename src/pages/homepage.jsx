@@ -96,8 +96,19 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{INFO.homepage.description.map((description, index) => (
+										<div
+											className="homepage-description"
+											key={(index + 1).toString()}
+										>
+											{description}
+										</div>
+									))}
 								</div>
+
+								{/* <div className="homepage-keywords">
+									{INFO.homepage.keywords}
+								</div> */}
 							</div>
 
 							<div className="homepage-first-area-right-side">

@@ -16,9 +16,14 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Prospective software engineer with a business background.",
-		description:
-			"Hello there! I am Rong, a prospective software engineer currently studying in my senior year. I love designing and building things, and I found creating sophisticated software systems intrisically fun. I wish to become an expert in software engineering, making coding magic and turning it into impactful intelligent systems that address real-world problems. With an undergraduate degree in accounting, I'm all about mixing business smarts with tech skills to create practical, innovative solutions.",
+		title: "WELCOME",
+		subtitle: "--- Jessie Sun, CS @UPenn, Software Engineer, AI Enthusiast",
+		description: [
+        	"Hey there 👋 I’m Jessie, a budding software engineer in my first year of CS master's program at the University of Pennsylvania.",
+        	"My experience spans full-stack development, database management, and the fascinating realm of AI integration. From scaling APIs to leading projects that harness the power of LLMs, I’m all about pushing boundaries and exploring the exciting intersection of AI and software engineering.",
+        	"Beyond the keyboard, you might find me smashing birdies on the badminton 🏸 court or sketching 🎨 out a new idea :)"
+    	],
+		keywords: ["software engineer", "full-stack developer", "AI enthusiast", "badminton player", "sketch artist"],
 	},
 
 	about: {

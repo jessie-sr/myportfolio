@@ -51,6 +51,10 @@
 	width: 100%;
 }
 
+.homepage-description {
+    margin-bottom: 20px;
+}
+
 .homepage-socials {
 	display: flex;
 	justify-content: left;
