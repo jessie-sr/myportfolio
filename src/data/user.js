@@ -1,15 +1,15 @@
 const INFO = {
 	main: {
-		title: "Rong's Portfolio",
-		name: "Rong Sun",
-		email: "jessie_sr@163.com",
+		title: "Jessie's Portfolio",
+		name: "Jessie Sun",
+		email: "rongsun0509@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/jessie-sr",
-		linkedin: "https://linkedin.com/",
+		linkedin: "https://www.linkedin.com/in/rongsun-jessie",
 		instagram: "https://www.instagram.com/jessi_esr/",
 		stackoverflow: "https://stackoverflow.com/users/22974262/jessie-sr",
 		facebook: "https://facebook.com/",
