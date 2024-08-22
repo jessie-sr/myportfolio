@@ -105,10 +105,6 @@ const Homepage = () => {
 										</div>
 									))}
 								</div>
-
-								{/* <div className="homepage-keywords">
-									{INFO.homepage.keywords}
-								</div> */}
 							</div>
 
 							<div className="homepage-first-area-right-side">

@@ -21,7 +21,6 @@ const INFO = {
         	"Hey there 👋 I'm a budding software engineer in my first year of CS master's program at the University of Pennsylvania. My experience spans full-stack development, database management, and the fascinating realm of AI integration. From scaling APIs to leading projects that harness the power of LLMs, I’m all about pushing boundaries and exploring the exciting intersection of AI and software engineering.",
         	"Beyond the keyboard, you might find me smashing birdies on the badminton 🏸 court or sketching 🎨 out a new idea :)"
     	],
-		keywords: ["software engineer", "full-stack developer", "AI enthusiast", "badminton player", "sketch artist"],
 	},
 
 	about: {
