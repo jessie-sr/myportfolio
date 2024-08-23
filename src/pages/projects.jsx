@@ -43,11 +43,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							This is a gallery of the fascinating projects I've created so far.
+							Welcome to my project showcase!
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							My work so far spans a diverse array of technologies and challenges, from full-stack web applications to AI-driven tools, each reflecting my journey of continuous learning and exploration, where curiosity meets code and creativity merges with problem-solving. I’ve tackled everything from building robust backends, optimizing database management to designing intuitive user interfaces, always driven by a passion to create solutions that are not only functional but also impactful.
+							My work so far spans a diverse array of technologies and challenges, from full-stack web applications to cutting-edge AI-driven tools, each reflecting my journey of continuous learning and exploration, where curiosity meets code and creativity merges with problem-solving. I’ve tackled everything from building robust backends, optimizing database management to designing intuitive user interfaces, always driven by a passion to create solutions that are not only functional but also impactful.
 						</div>
 
 						<div className="projects-list">

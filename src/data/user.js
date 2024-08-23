@@ -24,7 +24,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "From business to code, a journey of unlocking boundless potential",
+		title: "About me",
 		description: [
 			"Starting off in the world of business, my encounter with computer science at UC Berkeley left me irresistibly drawn to the art of coding. There’s something incredibly satisfying about designing and building sophisticated software systems—transforming lines of code into solutions that make a real-world impact. ",
 			"Now, as a CS master's student, I’m passionate about blending my business acumen with technical prowess to craft innovative, intelligent systems that not only solve complex problems but also drive meaningful change. "
