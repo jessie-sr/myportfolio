@@ -43,30 +43,48 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Book Nest 📚",
+			description:
+				"A comprehensive bookstore management system built with Spring Boot, React and MySQL",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			linkText: "View Project",
+			link: "https://github.com/jessie-sr/book-nest",
+		},
+
+		{
+			title: "GenTune 🤖",
+			description:
+				"An A/B testing platform designed for optimizing AI-generated content implemented via NextJS.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
+			linkText: "View Project",
+			link: "https://github.com/jessie-sr/prompteng",
+		},
+
+		{
 			title: "Jack 🎃 Translate",
 			description:
-				"A thoughtful translation app that allows customization of language, tone and context.",
+				"A GPT-based translation webapp developed with Ruby on Rails, Bootstrap and PostgreSQL.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
 			linkText: "View Project",
 			link: "../jackotranslate",
 		},
 
 		{
-			title: "Wisteria 💜 ResiConnect",
+			title: "Pixelpulse Optimizer 🏎️",
 			description:
-				"A comprehensive WeChat mini-program aiming to streamline information exchange among residents.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A project focusing on boosting video processing algorithms through distributed computing.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
 			linkText: "View Project",
-			link: "https://github.com/jessie-sr/resiconnect",
+			link: "https://github.com/jessie-sr/pixelpulse-optimizer",
 		},
 
 		{
-			title: "Spam Email 📧 Detector ",
+			title: "Rotten 🥔 Potatoes",
 			description:
-				"A spam email detector that implements K-Nearest Neighbours (KNN) algorithm for email classification.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A web application inspired by RottenTomatoes that allows users to review movies and manage their personal collection.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
 			linkText: "View Project",
-			link: "https://github.com/jessie-sr/spam-email-detector",
+			link: "https://github.com/jessie-sr/rottenpotatoes",
 		},
 
 		{
@@ -94,24 +112,6 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
 			linkText: "View Project",
 			link: "https://github.com/jessie-sr/snake-game",
-		},
-
-		{
-			title: "Rotten 🥔 Potatoes",
-			description:
-				"A web application inspired by RottenTomatoes that allows users to review movies and manage their personal collection.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
-			linkText: "View Project",
-			link: "https://github.com/jessie-sr/rottenpotatoes",
-		},
-
-		{
-			title: "Pixelpulse Optimizer 🏎️",
-			description:
-				"A project focusing on speeding up convolution operations, which are central to many applications like video processing.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
-			linkText: "View Project",
-			link: "https://github.com/jessie-sr/pixelpulse-optimizer",
 		},
 
 		{
