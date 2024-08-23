@@ -46,6 +46,7 @@
 
 .about-image-container {
 	width: 370px;
+	margin-bottom: 100px;
 }
 
 .about-image-wrapper {
@@ -93,7 +94,7 @@
 		order: 2;
 	}
 
-	.about-image-container {
+	. {
 		padding-bottom: 40px;
 	}
 
