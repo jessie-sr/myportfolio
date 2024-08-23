@@ -62,28 +62,8 @@ const Projects = () => {
 						 and impactful.
 						</div>
 
-						<div className="subtitle-bold" style={{ marginTop: '30px'}}>
-							<FontAwesomeIcon icon={faLightbulb} className="icon-style" />
-							{" "}My Projects
-						</div>
-
 						<div className="projects-list">
 							<AllProjects />
-						</div>
-
-						<div className="subtitle-bold" style={{ marginTop: '10px'}}>
-							<FontAwesomeIcon icon={faToolbox} className="icon-style" />
-							{" "}Programming Languages & Skills
-						</div>
-
-						<div className="svg-row">
-							<div className="svg-container">
-								<img src={ProgrammingLanguageSvg} alt="Programming Languages Proficiency" className="svg-image-small" />
-							</div>
-
-							<div className="svg-container">
-								<img src={SkillSvg} alt="Skills" className="svg-image-large" />
-							</div>
 						</div>
 
 					</div>
