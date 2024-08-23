@@ -12,8 +12,8 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
-import ProgrammingLanguageSvg from "../data/programming-languages.svg"; 
-import SkillSvg from "../data/skills.svg"; 
+import ProgrammingLanguageSvg from "../data/programming-languages.svg";
+import SkillSvg from "../data/skills.svg";
 
 const Projects = () => {
 	useEffect(() => {
@@ -47,19 +47,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-						In my pursuit to innovate for the senior community, 
-						I've embarked on several exciting projects that reflect
-						 my commitment to leveraging technology for meaningful 
-						 purposes. From Wisteria ResiConnect, my first foray into 
-						 the world of programming, to Jack O Translate, my most 
-						 recent and sophisticated project blending intricate 
-						 algorithms with intuitive user interfaces, each project 
-						 has been a building block in my journey, refining my 
-						 skills and deepening my understanding of how technology 
-						 can be harnessed for social good. Through these ventures, 
-						 I continue to blend my analytical acumen with my passion 
-						 for technology, creating solutions that are both innovative 
-						 and impactful.
+							My work so far spans a diverse array of technologies and challenges, from full-stack web applications to AI-driven tools, each reflecting my journey of continuous learning and exploration, where curiosity meets code and creativity merges with problem-solving. I’ve tackled everything from building robust backends, optimizing database management to designing intuitive user interfaces, always driven by a passion to create solutions that are not only functional but also impactful.
 						</div>
 
 						<div className="projects-list">
