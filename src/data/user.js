@@ -79,12 +79,12 @@ const INFO = {
 		},
 
 		{
-			title: "Rotten 🥔 Potatoes",
+			title: "Dine 🍽️ Manager",
 			description:
-				"A web application inspired by RottenTomatoes that allows users to review movies and manage their personal collection.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
+				"A restaurant information management system built with Django and MySQL.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com/jessie-sr/rottenpotatoes",
+			link: "https://github.com/jessie-sr/restaurant",
 		},
 
 		{
