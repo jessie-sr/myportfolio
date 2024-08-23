@@ -68,7 +68,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Dashmote Netherlands, Inc</div>
 							<div className="work-subtitle">
-								Software Development Engineer Intern
+								Software Engineer Intern
 							</div>
 							<div className="work-duration">Mar 2024 - Aug 2024</div>
 						</div>
@@ -81,7 +81,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Swoop Studio</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Full-Stack Developer
 							</div>
 							<div className="work-duration">Jan 2024 - Jun 2024</div>
 						</div>
