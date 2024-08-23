@@ -16,7 +16,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "I’m Jessie Sun, I Code, Create, and Innovate.",
+		title: "I’m Jessie Sun, I code, create, and innovate.",
 		description: [
         	"Hey there 👋 I'm a budding software engineer in my first year of CS master's program at the University of Pennsylvania. My experience spans full-stack development, database management, and the fascinating realm of AI integration. From scaling APIs to leading projects that harness the power of LLMs, I’m all about pushing boundaries and exploring the exciting intersection of AI and software engineering.",
         	"Beyond the keyboard, you might find me smashing birdies on the badminton 🏸 court or sketching 🎨 out a new idea :)"
@@ -24,10 +24,10 @@ const INFO = {
 	},
 
 	about: {
-		title: "From numbers to impact, I aim to empower the elderly with technology.",
+		title: "From business to code, a journey of unlocking boundless potential",
 		description:
-			"Starting off as an accounting student, my career goal took a sharp turn during the COVID-19 pandemic. Witnessing the challenges that the elderly faced with the digital divide, I was fueled to move into software engineering, creating intelligent systems specially for the elderly to enhance their overall quality of life. Blending my analytical background with a newfound passion for technology, I am now committed to creating digital solutions accessible and impactful for our aging society.",
-	},
+			"Starting off in the world of business, my encounter with computer science at UC Berkeley left me irresistibly drawn to the art of coding. There’s something incredibly satisfying about designing and building sophisticated software systems—transforming lines of code into solutions that make a real-world impact. Now, as a CS master's student, I’m passionate about blending my business acumen with technical prowess to craft innovative, intelligent systems that not only solve complex problems but also drive meaningful change. "
+		},
 
 	jackotranslate: {
 		title: "Navigating independent web app development: Jack 🎃 Translate",
