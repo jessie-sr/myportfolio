@@ -48,7 +48,14 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{INFO.about.description.map((description, index) => (
+										<div
+											className="about-description"
+											key={(index + 1).toString()}
+										>
+											{description}
+										</div>
+									))}
 								</div>
 							</div>
 							<div className="about-left-side">

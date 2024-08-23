@@ -38,6 +38,10 @@
 	margin-bottom: 40px !important;
 }
 
+.about-description {
+	margin-bottom: 20px;
+}
+
 .about-left-side {
 	display: flex;
 	flex-direction: column;
