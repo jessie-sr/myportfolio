@@ -5,7 +5,6 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-import DetailWorks from "../components/homepage/detail-works";
 import Article from "../components/homepage/article";
 
 import { Link } from "react-router-dom";
