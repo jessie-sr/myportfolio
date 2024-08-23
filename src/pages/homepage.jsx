@@ -20,7 +20,6 @@ import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -176,29 +175,6 @@ const Homepage = () => {
 
 						<div className="homepage-projects">
 							<AllProjects />
-						</div>
-
-						<div className="homepage-after-title">
-							<div className="homepage-articles"  style={{ marginTop: '15px'}}>
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-
-							<div className="homepage-works">
-								<Works />
-							</div>
 						</div>
 
 						<div className="page-footer">
