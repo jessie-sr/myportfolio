@@ -50,8 +50,8 @@
 
 .about-image-container {
 	width: 370px;
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-top: 30px;
+	margin-bottom: 80px;
 }
 
 .about-image-wrapper {
@@ -67,6 +67,19 @@
 	width: 100%;
 }
 
+.about-image-wrapper-small {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.about-image-wrapper-small img {
+	display: block;
+	width: 80%;
+}
+
 .about-socials {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -74,6 +87,12 @@
 
 .about-socials-mobile {
 	display: none;
+}
+
+.about-link {
+	font-size: 16px;
+	color: var(--link-color);
+	font-weight: 700;
 }
 
 @media (max-width: 1024px) {

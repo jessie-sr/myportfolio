@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faToolbox, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -12,8 +10,6 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
-import ProgrammingLanguageSvg from "../data/programming-languages.svg";
-import SkillSvg from "../data/skills.svg";
 
 const Projects = () => {
 	useEffect(() => {
@@ -41,13 +37,24 @@ const Projects = () => {
 							<Logo width={46} />
 						</div> */}
 					</div>
+					
 					<div className="projects-container">
 						<div className="title projects-title">
-							Welcome to my project showcase!
+							Welcome to my project showcase !
 						</div>
 
 						<div className="subtitle projects-subtitle">
 							My work so far spans a diverse array of technologies and challenges, from full-stack web applications to cutting-edge AI-driven tools, each reflecting my journey of continuous learning and exploration, where curiosity meets code and creativity merges with problem-solving. I’ve tackled everything from building robust backends, optimizing database management to designing intuitive user interfaces, always driven by a passion to create solutions that are not only functional but also impactful.
+						</div>
+
+						<div className="projects-image-container">
+							<div className="projects-image-wrapper">
+								<img
+									src="project.png"
+									alt="project"
+									className="projects-image"
+								/>
+							</div>
 						</div>
 
 						<div className="projects-list">

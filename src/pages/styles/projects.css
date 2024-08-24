@@ -4,6 +4,10 @@
 	padding-top: 25px;
 }
 
+.projects-subtitle {
+	width: 100% !important;
+}
+
 .projects-logo {
 	display: flex;
 	position: fixed;
@@ -22,14 +26,20 @@
 	padding-top: 120px;
 }
 
-@media (max-width: 600px) {
-	.projects-container {
-		padding-top: 60px;
-	}
+.projects-image-container {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
 
-	.projects-project {
-		width: calc(100% / 2);
-	}
+.projects-image-wrapper {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.projects-image-wrapper img {
+	display: block;
+	width: 100%;
 }
 
 .svg-image-small {

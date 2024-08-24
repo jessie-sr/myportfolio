@@ -10,7 +10,7 @@ import Article from "../components/homepage/article";
 
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -57,7 +57,15 @@ const About = () => {
 										</div>
 									))}
 								</div>
+								<div className="about-link">
+									Learn more through my articles and experience below {" "}
+									<FontAwesomeIcon
+										style={{ fontSize: "10px" }}
+										icon={faChevronDown}
+									/>
+								</div>
 							</div>
+							
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
