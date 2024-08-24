@@ -6,6 +6,9 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -32,11 +35,6 @@ const Projects = () => {
 			<div className="page-content">
 				<NavBar active="projects" />
 				<div className="content-wrapper">
-					<div className="projects-logo-container">
-						{/* <div className="projects-logo">
-							<Logo width={46} />
-						</div> */}
-					</div>
 					
 					<div className="projects-container">
 						<div className="title projects-title">
@@ -55,6 +53,14 @@ const Projects = () => {
 									className="projects-image"
 								/>
 							</div>
+						</div>
+
+						<div className="about-link">
+							View my projects below {" "}
+							<FontAwesomeIcon
+								style={{ fontSize: "10px" }}
+								icon={faChevronDown}
+							/>
 						</div>
 
 						<div className="projects-list">

@@ -47,7 +47,7 @@ const INFO = {
 		{
 			title: "Book Nest 📚",
 			description:
-				"A comprehensive bookstore management system built with Spring Boot, React and MySQL",
+				"A comprehensive bookstore management system built with Spring Boot, React and MySQL.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/jessie-sr/book-nest",
