@@ -40,7 +40,7 @@ const Projects = () => {
 					
 					<div className="projects-container">
 						<div className="title projects-title">
-							Welcome to my project showcase !
+							Welcome to my project showcase 🙌 !
 						</div>
 
 						<div className="subtitle projects-subtitle">

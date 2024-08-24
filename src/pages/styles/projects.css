@@ -4,6 +4,10 @@
 	padding-top: 25px;
 }
 
+.projects-title {
+	width: 100% !important;
+}
+
 .projects-subtitle {
 	width: 100% !important;
 }
@@ -27,6 +31,7 @@
 }
 
 .projects-image-container {
+	margin-left: -10px;
 	margin-top: 50px;
 	margin-bottom: 60px;
 }
