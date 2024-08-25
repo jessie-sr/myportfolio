@@ -43,6 +43,7 @@
     overflow: hidden; /* Hide any overflow caused by the zoom */
     display: flex; /* Center the iframe within the container if necessary */
 	margin: 0 auto;
+	margin-bottom: 40px;
     justify-content: center;
     align-items: center;
 }
