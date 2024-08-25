@@ -44,22 +44,16 @@ const Contact = () => {
 						</div>
 
 						<div className="subtitle contact-subtitle">
-						    Thanks for checking out my website! I'm always happy to connect, 
-							so feel free to reach out to me on {" "}
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
+						<p className="first-line">Thanks for checking out my website!</p>
+						<p>
+							I'm always happy to connect, so feel free to reach out to me on{" "}
+							<a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
 								LinkedIn
 							</a>
-							. If you have any feedback, 
-							questions, or just want to chat, don't hesitate to send me an email at
-							&nbsp;
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							{" "} . I look forward to hearing from you!
+							. If you have any feedback, questions, or just want to chat, don't hesitate to send me an email at&nbsp;
+							<a href={`mailto:${INFO.main.email}`}>{INFO.main.email}</a>
+							{" "}. I look forward to hearing from you!
+						</p>
 						</div>
 
 						<div class="gif-container">
