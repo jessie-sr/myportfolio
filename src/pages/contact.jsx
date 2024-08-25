@@ -51,16 +51,26 @@ const Contact = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.linkedin}
+								LinkedIn
 							</a>
 							. If you have any feedback, 
-							questions, or suggestions, please don't hesitate to send me an email at
+							questions, or just want to chat, don't hesitate to send me an email at
 							&nbsp;
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							{" "} . I'll do my best to respond promptly!
+							{" "} . I look forward to hearing from you!
 						</div>
+
+						<div class="gif-container">
+							<iframe 
+								src="https://giphy.com/embed/xTiTnzkyUDHFYA5ON2" 
+								width="200" 
+								height="200" 
+								allowFullScreen
+							></iframe>
+						</div>
+
 					</div>
 
 					<div className="socials-container">

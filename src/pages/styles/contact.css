@@ -36,3 +36,21 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+
+.gif-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden; /* Hide any overflow caused by the zoom */
+    display: flex; /* Center the iframe within the container if necessary */
+	margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif-container iframe {
+    transform: scale(1.5); /* Scale the iframe content to 120% */
+    transform-origin: center; /* Zoom from the center of the iframe */
+    width: calc(100% / 1.5); /* Adjust the iframe size to fit the container after scaling */
+    height: calc(100% / 1.5); /* Adjust the iframe size to fit the container after scaling */
+    border: none; /* Remove the iframe border */
+}
