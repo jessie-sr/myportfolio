@@ -47,7 +47,7 @@ const INFO = {
 		{
 			title: "Book Nest 📚",
 			description:
-				"A comprehensive bookstore management system built with Spring Boot, React and MySQL.",
+				"A bookstore transaction management system built with Spring Boot, React and MySQL.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/jessie-sr/book-nest",
@@ -65,7 +65,7 @@ const INFO = {
 		{
 			title: "Jack 🎃 Translate",
 			description:
-				"A GPT-based translation webapp developed with Ruby on Rails, Bootstrap and PostgreSQL.",
+				"A GPT-based translation web-app developed with Ruby on Rails, Bootstrap and PostgreSQL.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
 			linkText: "View Project",
 			link: "../jackotranslate",
@@ -83,7 +83,7 @@ const INFO = {
 		{
 			title: "Dine 🍽️ Manager",
 			description:
-				"A restaurant information management system built with Django and MySQL.",
+				"A comprehensive restaurant information management system built with Django and MySQL.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/jessie-sr/restaurant",
@@ -110,7 +110,7 @@ const INFO = {
 		{
 			title: "SSSnake 🐍 Game",
 			description:
-				"A snake game on a grid of characters, where the player controls a snake to eat fruits and avoid crashing into walls or itself.",
+				"Classic snake game made in C, where the player controls a snake to eat fruits and avoid crashing into walls or itself.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png",
 			linkText: "View Project",
 			link: "https://github.com/jessie-sr/snake-game",
@@ -119,7 +119,7 @@ const INFO = {
 		{
 			title: "Scheme Interpreter",
 			description:
-				"A minimalistic interpreter for a subset of the Scheme programming language.",
+				"A minimalistic interpreter for the Scheme programming language written in Python.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/jessie-sr/scheme-interpreter",
