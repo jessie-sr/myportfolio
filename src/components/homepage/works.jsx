@@ -81,7 +81,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Swoop Studio</div>
 							<div className="work-subtitle">
-								Full-Stack Developer
+								Software Engineer
 							</div>
 							<div className="work-duration">Jan 2024 - Jun 2024</div>
 						</div>

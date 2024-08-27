@@ -18,6 +18,19 @@
 	font-weight: 700;
 }
 
+.projects-viewmore-link {
+	opacity: 1;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.projects-viewmore-link a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
 .projects-logo {
 	display: flex;
 	position: fixed;
@@ -38,7 +51,7 @@
 
 .projects-image-container {
 	margin-left: -10px;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-bottom: 60px;
 }
 

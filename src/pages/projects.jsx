@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -7,7 +8,7 @@ import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -55,19 +56,21 @@ const Projects = () => {
 							</div>
 						</div>
 
-						<div className="about-link">
-							View my projects below {" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronDown}
-							/>
-						</div>
-
 						<div className="projects-list">
 							<AllProjects />
 						</div>
 
+						<div className="projects-viewmore-link">
+							<Link to={INFO.socials.github}>
+								View more on my GitHub  {" "}
+								<FontAwesomeIcon
+									style={{ fontSize: "10px" }}
+									icon={faChevronRight}
+								/>
+							</Link>
+						</div>
 					</div>
+
 					<div className="page-footer">
 						<Footer />
 					</div>
