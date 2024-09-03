@@ -2,13 +2,13 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "21 December 2021",
-		title: "Echoes of the Forgotten: Bridging the Digital Divide for the Elderly in the Age of Technology",
+		date: "3 July 2024",
+		title: "Swoop Studio: My First Startup Venture!",
 		description:
-			"How we respond to the needs of our elderly today will define the legacy we leave for the generations to come.",
+			"A trial to revolutionize video production through AI-driven automation; a tale of creativity, relentless problem-solving, and the synergy of a passionate team.",
 		keywords: [
-			"Digital Divide",
-			"The Elderly"
+			"Innovation",
+			"LLMs",
 		],
 		style: `
 				.article-content {
@@ -30,28 +30,25 @@ function article_1() {
 			<React.Fragment>
 				<div className="article-content">
 					<div className="paragraph">
-						In our rapidly advancing digital world, there's a poignant and growing disconnect that often goes unnoticed: the struggle of the elderly to keep pace with the smart revolution. It's a story of a generation, once at the forefront of society, now finding itself grappling with a world where technology seems to speak a different language.
+						Video production has traditionally been a labor-intensive endeavor, requiring a significant investment of time and specialized skills. However, the rise of Large Language Models (LLMs) offered a fresh perspective—an opportunity to reimagine the entire process. What if we take advantage of ChatGPT to automate video production from start to finish? Could a simple topic input be transformed into a fully polished video with minimal human intervention? Fueled by this vision, me and my tech-savvy peers launched Swoop Studio—a startup project dedicated to pushing the boundaries of modern video production and redefining what’s possible through collaboration and AI technology.
 					</div>
 					<div className="paragraph">
-						Imagine the mix of frustration and isolation our grandparents might feel, wrestling with apps and websites that seem to be designed for someone half their age. Something as simple as booking a ride, paying a bill online, or just keeping in touch with family turns into a maze of swipes and taps that feels more like a puzzle than a tool. It's not just about feeling out of touch; it's the sting of feeling left behind in the relentless march of progress.
+						The concept was ambitious. We envisioned a platform that could take a single topic, process it through LLMs, and generate a polished 10-minute video—all within just 30 minutes. It was a tall order, but the potential was enormous. The idea of empowering anyone, regardless of technical expertise, to create high-quality video content was exhilarating. However, the path to realizing this vision was anything but straightforward.
 					</div>
 					<div className="paragraph">
-						In an attempt to bridge this digital divide, some tech giants have started rolling out 'senior-friendly' versions of their popular apps. DiDi, Alipay, Baidu, and others have introduced features like larger fonts and simplified interfaces, aiming to make their platforms more accessible to older users. But these efforts, while well-intentioned, often fall short of truly bridging the gap. The changes are usually minimal, addressing the surface-level symptoms of the problem rather than its root - the fundamental design philosophy that overlooks the elderly.
+						Our team was as diverse as it was talented, with each member bringing a unique set of skills to the table. We had backend developers, model fine-tuning experts, and frontend designers—all passionate and brimming with ideas. But with diversity came differing opinions, especially when it came to the project’s direction and technical approach. Our challenge was not just technical but also managerial—how could we align our visions and harness our collective strengths to create something truly groundbreaking?
 					</div>
 					<div className="paragraph">
-						This is especially poignant in places like China, where there's a government push for more elder-accessible digital platforms. But despite these calls to action, the transformation within the digital landscape has been slow and, in many ways, superficial. The modifications, more often than not, remain confined to the home pages, leaving the more intricate functionalities untouched and just as perplexing for the elderly user.
+						To navigate all these, I knew we needed a structure that allowed for both creativity and discipline. I introduced Agile methodologies, breaking our massive project into smaller, manageable sprints. This approach not only made the workload feel less overwhelming but also allowed us to celebrate small victories along the way, keeping morale high. Every other day, we held stand-up meetings to check in on progress, share insights, and tackle any roadblocks head-on. These sessions became the heartbeat of our project, ensuring that everyone stayed in sync and that no problem went unaddressed for long. Beyond that, I facilitated brainstorming sessions where every idea was welcomed, no matter how out-of-the-box. These sessions were where the magic happened. They allowed us to see problems from multiple perspectives and come up with creative solutions that none of us could have devised alone. It was in these moments of collective brainstorming that we truly became a team, united by a shared vision and a common goal.
 					</div>
 					<div className="paragraph">
-						Behind these lukewarm efforts lies a deeper issue: the untapped potential of the 'silver economy.' There's a whole market segment represented by older adults, rich with experience and wisdom, yet it remains largely overlooked by the tech world. The reluctance of tech giants to dive into this market is driven by economic calculations—older users are perceived as less engaged and less profitable, especially when restrictions on advertising in elderly-specific apps are considered.
+						After months of hard work, late nights, and countless lines of code, we did it. We developed a working prototype of our automation tool—an incredible feat that could take a simple topic and, within 30 minutes, transform it into a polished, 10-minute video. Seeing it in action for the first time was nothing short of thrilling. The sense of accomplishment we felt was immense, knowing that we had turned a lofty idea into a tangible, functioning product.
 					</div>
 					<div className="paragraph">
-						But this challenge goes beyond economics; it's about empathy, respect, and inclusivity. Imagine the sense of belonging and empowerment our elders would feel if they could effortlessly use technology to connect with their communities, access information, and enjoy the conveniences of the digital age. We need to look at technology not just as a tool for efficiency but as a means of inclusion that can enrich the lives of all, regardless of age.
+						Though we didn’t secure funding, the experience was far from a failure. It was a testament to the power of collaboration, the importance of perseverance, and the potential of innovative thinking. Swoop Studio taught us that even the most daunting challenges can be overcome when you have a team that believes in the vision and is committed to making it a reality. The lessons learned, the skills gained, and the bonds formed were invaluable.
 					</div>
 					<div className="paragraph">
-						The real game-changer will be a shift in mindset on how we design technology for the elderly. It's about diving deeper, understanding how they interact with and perceive technology, and designing with a heart. This isn't merely about user-friendly interfaces; it's about creating a digital environment where the elderly feel acknowledged, respected, and valued.
-					</div>
-					<div className="paragraph">
-						As we navigate the ever-evolving digital landscape, we face a pivotal question: How do we ensure technology, meant to connect us, doesn't end up sidelining a vital part of our community? The interaction between technology and the elderly is more than a design challenge; it's a reflection of our societal values. Our response to the needs of our older generation today will set the tone for how future generations remember us.
+					In the end, Swoop Studio was more than just a startup project—it was a journey of discovery, growth, and relentless innovation. It showed us what’s possible when you dare to dream big and work together to turn that dream into reality. And as we look to the future, the experience of Swoop Studio continues to inspire us to push the boundaries of what’s possible in the world of technology and beyond.
 					</div>
 					<img
 						src="https://picsum.photos/200/300"
@@ -69,7 +66,7 @@ function article_2() {
 		date: "7 May 2022",
 		title: "When the Pandemic Brings Us Closer: Perspective from a Community Volunteer",
 		description:
-			"Drawing from my personal journey as a community volunteer during the pandemic...",
+			"A reflection on how the pandemic strengthened community bonds, drawing from my personal experience as a community volunteer.",
 		style: `
 				.article-content {
 					display: flex;
@@ -118,7 +115,7 @@ function article_3() {
 		date: "12 Nov 2023",
 		title: "Navigating Independent Web App Development: A Journey with Jack O Translate",
 		description:
-			"A testament to my self-reliance and innovative spirit; a significant leap in my journey as a prospective software engineer.",
+			"A testament to my self-reliance and innovative spirit; a leap in my journey as a prospective software engineer.",
 		style: `
 				.article-content {
 					display: flex;
@@ -172,6 +169,6 @@ function article_3() {
 	};
 }
 
-const myArticles = [article_3, article_2, article_1];
+const myArticles = [article_1, article_3, article_2];
 
 export default myArticles;
