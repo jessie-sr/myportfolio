@@ -136,8 +136,8 @@ function article_3() {
 				}
 				`,
 		keywords: [
-			"Community Volunteers",
-			"COVID-19"
+			"Application Development",
+			"Ruby on Rails"
 		],
 		body: (
 			<React.Fragment>
