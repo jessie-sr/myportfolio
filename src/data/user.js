@@ -70,7 +70,7 @@ const INFO = {
 				"A GPT-based translation web-app developed with Ruby on Rails, Bootstrap and PostgreSQL.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
 			linkText: "View Project",
-			link: "../jackotranslate",
+			link: "https://github.com/jessie-sr/jack-o-translate",
 		},
 
 		{
