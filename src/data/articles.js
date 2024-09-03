@@ -67,9 +67,9 @@ function article_1() {
 function article_2() {
 	return {
 		date: "7 May 2022",
-		title: "When a Pandemic Brings Us Closer: Tales of a Community Volunteer",
+		title: "When the Pandemic Brings Us Closer: Perspective from a Community Volunteer",
 		description:
-			"While pushing us to our limits, COVID-19 also pulled us together, knitting a tighter, more compassionate community fabric.",
+			"Drawing from my personal journey as a community volunteer during the pandemic...",
 		style: `
 				.article-content {
 					display: flex;
@@ -123,7 +123,7 @@ function article_3() {
 				.article-content {
 					display: flex;
 					flex-direction: column;
-					align-items: center;
+					align-items: left;
 				}
 
 				.paragraph {
@@ -143,22 +143,23 @@ function article_3() {
 			<React.Fragment>
 				<div className="article-content">
 					<div className="paragraph">
-						Embarking on the "Jack O Translate" project marked a significant leap in my journey as a prospective software engineer. This wasn't just another run-of-the-mill app; it was my foray into independent webapp development, challenging me to come up with innovative software design and apply my programming skills in a real-world context.
+						It all began with a simple frustration. 
 					</div>
 					<div className="paragraph">
-						"Jack O Translate" is a web application that supports translations between multiple languages. What makes it stand out is its ability to customize tone and context in translations, a feature often missing in standard translation tools but achieved here through integration with the OpenAI API. The technical backbone of the project consisted of Ruby on Rails for the backend, HTML and Bootstrap for the frontend, and JavaScript and CSS for interactive and aesthetic elements. User authentication was managed using the Devise gem, with Google OAuth2 for Single Sign-On, and PostgreSQL as the database. 
+						While texting my international friends and emailing professors, I realized that most translation apps fell short—they provided literal translations but missed the subtle nuances that different contexts demanded. I found myself wishing for a tool that could adapt its tone and context, making the translations more accurate and meaningful. This small, nagging thought eventually snowballed into something bigger: the inspiration for "Jack O Translate”.
 					</div>
 					<div className="paragraph">
-						The complexity of this project stemmed from various factors. Firstly, as a self-initiated venture, it lacked the predefined structure and guidance of a course assignment. I was in the driver's seat, responsible for conceptualizing, designing, and architecting the entire application. Secondly, working independently meant limited access to in-person support, compelling me to navigate and resolve intricate challenges such as software version incompatibilities, predominantly on my own. Transitioning from the Codio platform, used in my coursework, to Visual Studio Code for this project added another layer of intricacy. Moreover, the integration of the OpenAI API using Ruby, a process not documented in the official OpenAI guide, necessitating a novel approach. Deploying the application to Heroku also introduced complexities not covered in my coursework, demanding considerations for the production environment such as authentication and external databases.
+						Creating "Jack O Translate" wasn’t just about building another translation app. It was my first true dive into independent web development, where I had to apply every bit of programming knowledge I’d gathered and then some. I wanted this app to stand out, to do more than just convert words from one language to another. By integrating the OpenAI API, I aimed to provide users with a translation experience that could adjust its tone to capture what one wanted to say.
 					</div>
 					<div className="paragraph">
-						Confronting these challenges head-on, I employed a series of multifaceted approaches. The absence of a guiding structure led me to meticulously research and design the application’s functionality and UI, drawing inspiration from online resources and past project templates, and finally adopting the agile methodology, which characterized by iterative development, Behavior-Driven Development (BDD), and Test-Driven Development (TDD). For software compatibility issues, I leveraged online forums like stack overflow and developer communities on platforms including github and reddit to find solutions. For a smooth transition from Codio to Visual Studio Code, I familiarized myself with Visual Studio Code's features, extensions, and shortcuts through online tutorials and practice. Customizing the IDE to suit the project's needs, I set up an efficient workflow that enhanced productivity and streamlined the development process. To integrate the OpenAI API into my Rails app, I explored several third-party gems, evaluating their compatibility and ultimately integrating the ‘openai’ gem. This process involved extensive experimentation with API calls to ensure seamless integration, as well as managing API keys using environment variables and configuration files excluded from version control to ensure security.
+						I used Ruby on Rails for the backend, complemented with HTML and Bootstrap up front; sprinkled a little JavaScript and CSS on top to give it all those interactive touches. It was quite a challenge. This was not a school assignment, but my project-my responsibility; hence, there was no predefined structure, no professor's hand guiding me. I had to conceptualize, design, and architect the whole thing from scratch.
 					</div>
 					<div className="paragraph">
-						The most daunting challenge during this developing process emerged while adding the email confirmation feature using the Devise gem, where I encountered an internal server error (code 500) in the production environment on Heroku. This issue was particularly perplexing as it did not present itself in the local development environment, thereby obscuring detailed error messages and necessitating a thorough investigation of all potential error sources. My approach began with verifying routing and configurations, followed by enhancing RSpec tests. When these steps did not yield a solution, I sought advice from online forums and eventually, my TA and professor. The breakthrough came from the head TA of my Introduction to Software Engineering course, who had previously navigated a similar challenge. He suggested transitioning the email platform from Gmail SMTP to SendGrid SMTP, a move that effectively addressed the compatibility issues with my development tools.
-					</div>
+						Deploying the app to Heroku brought its own set of hurdles, especially when I hit an internal server error while adding email confirmation via the Devise gem. Everything worked fine locally, but once live on Heroku, the dreaded 500 error appeared, and the usual debugging tools offered no help. After hours of combing through online forums, tweaking configurations, and enhancing RSpec tests, I finally found a solution. With advice from my TA, I switched from Gmail SMTP to SendGrid SMTP, resolving the issue and pushing the project forward.					</div>
 					<div className="paragraph">
-						"Jack O Translate" was more than a technical project; it was a testament to my self-reliance and innovative spirit. It pushed me to stretch my knowledge and skills, overcoming complex technical and strategic challenges. This experience has not only deepened my understanding of software engineering principles but also encouraged me to engage more with the software engineering community. As I aim for the M.S.-SE program at CMU (fingers crossed for that acceptance!), I'm excited to bring this wealth of experience, a passion for continuous learning, and a drive for innovation to the community.
+						"Jack O Translate" turned out to be more than just a technical challenge. It was a journey of persistence, innovation, and self-reliance. I had to navigate uncharted waters, solve problems on the fly, and stretch my capabilities beyond what I thought was possible. The experience not only deepened my understanding of software engineering but also solidified my passion for it.					</div>
+					<div className="paragraph">
+						As I move forward in my journey as a prospecting software engineer, I carry with me the lessons learned from this project—lessons in creativity, problem-solving, and the sheer joy of turning a small idea into something tangible and impactful. "Jack O Translate" started as a solution to a personal frustration, but it grew into a testament to what can be achieved when you push beyond your comfort zone and embrace the challenges that come your way.
 					</div>
 					<img
 						src="https://picsum.photos/200/300"
