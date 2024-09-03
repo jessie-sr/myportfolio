@@ -43,7 +43,8 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							My work so far spans a diverse array of technologies and challenges, from full-stack web applications to cutting-edge AI-driven tools, each reflecting my journey of continuous learning and exploration, where curiosity meets code and creativity merges with problem-solving. I’ve tackled everything from building robust backends, optimizing database management to designing intuitive user interfaces, always driven by a passion to create solutions that are not only functional but also impactful.
+							<div>I have worked on a wide range of projects, from full-stack web applications to AI-driven tools.</div>
+							<div>They might not be the coolest, but I take pride in the things I build.</div>
 						</div>
 
 						<div className="projects-image-container">

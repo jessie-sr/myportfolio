@@ -6,6 +6,7 @@
 
 .projects-title {
 	width: 100% !important;
+	margin-top: 20px;
 }
 
 .projects-subtitle {
@@ -52,7 +53,7 @@
 .projects-image-container {
 	margin-left: -10px;
 	margin-top: 50px;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 .projects-image-wrapper {
