@@ -21,7 +21,7 @@ const Works = () => {
 							/>
 							<div className="work-title">University of Pennsylvania</div>
 							<div className="work-subtitle">
-                                M.S. Computer Science
+                                M.S. Computer & Info Tech
 							</div>
 							<div className="work-duration">Aug 2024 - Present</div>
 						</div>

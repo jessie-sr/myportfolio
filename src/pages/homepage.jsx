@@ -5,9 +5,16 @@ import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Socials from "../components/about/socials";
+import Works from "../components/homepage/works";
+import Article from "../components/homepage/article";
+
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -105,6 +112,29 @@ const Homepage = () => {
 										/>
 									</div>
 								</div>
+							</div>
+						</div>
+
+						<div className="homepage-after-title">
+							<div className="homepage-articles" style={{ marginTop: '15px' }}>
+								{myArticles.map((article, index) => (
+									<div
+										className="homepage-article"
+										key={(index + 1).toString()}
+									>
+										<Article
+											key={(index + 1).toString()}
+											date={article().date}
+											title={article().title}
+											description={article().description}
+											link={"/article/" + (index + 1)}
+										/>
+									</div>
+								))}
+							</div>
+
+							<div className="homepage-works">
+								<Works />
 							</div>
 						</div>
 

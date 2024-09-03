@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "I’m Jessie Sun, I code, create, and innovate.",
 		description: [
-        	"Hey there 👋 I’m Jessie, a 1st year master student studying Computer and Information Technology at Upenn. Prior to my graduate studies, I learned Computer Science at UC Berkeley. ",
+        	"Hey there 👋 I’m Jessie, a 1st year master student studying Computer and Information Technology at Upenn. Prior to my graduate studies, I learned Computer Science at UC Berkeley 👩🏻‍💻. ",
 			"I enjoy building scalable software solutions. I have experience developing RESTful APIs and data processing pipeline for PepsiCo and Coca-Cola 🥤.",
 			"I'm passionate about innovation. I have a startup project on the automation technology of video 🎥 production.",
         	"Beyond the keyboard, you might find me smashing birdies on the badminton 🏸 court or sketching 🎨 out a new idea :)"
