@@ -5,7 +5,7 @@ function article_1() {
 		date: "3 July 2024",
 		title: "Swoop Studio: My First Startup Venture!",
 		description:
-			"A trial to revolutionize video production through AI-driven automation; a tale of creativity, relentless problem-solving, and the synergy of a passionate team.",
+			"I launched a startup project aiming to revolutionize video production through AI-driven automation.",
 		keywords: [
 			"Innovation",
 			"LLMs",
@@ -115,7 +115,7 @@ function article_3() {
 		date: "12 Nov 2023",
 		title: "Navigating Independent Web App Development: A Journey with Jack O Translate",
 		description:
-			"A testament to my self-reliance and innovative spirit; a leap in my journey as a prospective software engineer.",
+			"Hear about my first independent web development experience.",
 		style: `
 				.article-content {
 					display: flex;
