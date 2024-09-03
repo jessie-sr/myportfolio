@@ -51,7 +51,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Connect on LinkedIn</div>
+					<div className="social-text">Connect me on LinkedIn</div>
 				</a>
 			</div>
 
@@ -82,7 +82,7 @@ const Socials = () => {
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
 
-						<div className="social-text">{INFO.main.email}</div>
+						<div className="social-text">Send me an email</div>
 					</a>
 				</div>
 			</div>
