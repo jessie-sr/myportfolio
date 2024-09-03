@@ -94,17 +94,14 @@ function article_2() {
 			<React.Fragment>
 				<div className="article-content">
 					<div className="paragraph">
-						"Which way to Building XX?" A question I've heard so often, yet, even after two decades on Ziteng Street, I'd usually end up giving a smile that was more of a question itself.
+						"Where is Building XX?" I've heard the question so often, and yet, though I have lived on Ziteng Street for nearly two decades, my invariable response was a smile that was really just a question mark itself.
 					</div>
 					<div className="paragraph">
-						I guess this is a common script for many of us. We're so wrapped up in our whirlwind lives that the folks next door often remain just faces we pass by. But then, COVID-19 burst onto the scene, and I found myself, as a community volunteer, diving headfirst into the frontline response. Who knew that simply knowing your way around a bunch of buildings could be your ticket to becoming the neighborhood's unsung hero?
-					</div>
+						I'm sure this is a familiar script for most of us: so caught up in our whirlwind lives, the people next door remain just faces we pass by. But then, COVID-19 burst onto the scene, and I found myself, as a community volunteer, diving headfirst into the frontline response. Who knew that simply knowing your way around a bunch of buildings could be your ticket to becoming the neighborhood's unsung hero?					</div>
 					<div className="paragraph">
-						Managing the maze of Minhang District Ziteng Street Neighborhood, with its 20+ buildings, became a game of strategic navigation. It wasn't just about dodging the proverbial bullet; it was about making sure Mrs. Wang got her heart medication and Mr. Zhang received his weekly grocery stash. And doing it all in Shanghai’s summer heat, dressed in what felt like a walking sauna (thanks, protective gear!), certainly added a twist to my daily fitness regime. Juggling tasks in pandemic mode, from the mundane to the mind-boggling, turned us into jacks-of-all-trades. One moment I'm a permit officer, the next I'm a makeshift dog whisperer for quarantined pooches. Who said community work wasn't diverse?
-					</div>
+						Managing the maze of Minhang District Ziteng Street Neighborhood, with its 20+ buildings, became a game of strategic navigation. It wasn't merely a case of avoiding the proverbial bullet; it was a question of getting heart medication to Mrs. Wang and a week's stash of groceries to Mr. Zhang. Having to do all this in Shanghai's summer heat, in what felt like a walking sauna thanks to the protective gear, added to my daily fitness regime something of a tweak. The need to juggle tasks in pandemic mode-from mundane to mind-boggling-turned us all into jacks-of-all-trades. One minute I'm a permit officer, the next some sort of makeshift dog whisperer for quarantined pooches. Whoever said community work isn't diverse?					</div>
 					<div className="paragraph">
-						The payoff, though, was in the small moments – those genuine 'thank you’s from residents that made all the sweat worth it. And through all this, I saw my perception of community work morph from a vague notion to something palpably real. Every door knocked, every parcel delivered, shortened the emotional distance between us. In a strange, ironic way, this pandemic, while pushing us to our limits, also pulled us together, knitting a tighter, more compassionate community fabric.
-					</div>
+						The payoff, though, was in the small moments - those genuine 'thank you's from the residents that made all the sweat worth it. Through all this, I watched my perception of community work evolve from some vague notion into something palpably real. Every door knocked, every parcel delivered, shortened the emotional distance between us. This pandemic, paradoxically, ironically, thrust us to our breaking points and yet pulled us together, knitting a closer, more compassionate community fabric.					</div>
 					<img
 						src="https://picsum.photos/200/300"
 						alt="random"
